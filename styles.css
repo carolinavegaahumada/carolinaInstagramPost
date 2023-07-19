@@ -1,0 +1,94 @@
+body{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: black;
+}
+
+.post{
+    width: 40%;
+    height:80%;
+    display: block;
+    margin: auto;
+    background-color: rgb(234, 234, 234);
+    padding:0,5%;
+}
+
+.post-Header{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding:2%;
+}
+
+.imagenprin{
+    height: 50%;
+}
+.footer-post{
+    font-family: 'Yrsa', serif;
+    height:40%;
+    padding: 2% 3% 3% 4%;
+    text-align: justify;
+}
+
+.imagen{
+    width:5%;
+   text-align: right;
+}
+.imagen i{
+    font-size:45px;
+}
+
+.texto{
+    width:13%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.texto p{
+    font-family: 'Lora', serif;
+    font-size:22px;
+}
+.boton{
+    width:80%;
+    
+}
+
+.boton i{
+    font-size: 60px;
+    margin-left: 92%;
+}
+
+.imagenprin img {
+    width:100%;
+}
+
+.botones{
+    width:100%;
+    height:10%;
+    display:flex;
+}
+
+.botones i:nth-child(2){
+   padding-left: 2%;
+}
+
+.botones i:nth-child(3){
+    padding-left: 2%;
+ }
+
+.botones i:nth-child(4){
+    margin-left: auto;
+    font-size: 60px;
+}
+
+.botones i:nth-child(-n+3){
+    font-size: 60px;
+}
+
+
+.footer-post p{
+    font-family: 'Yrsa', serif;
+    font-size: 35px;
+}
